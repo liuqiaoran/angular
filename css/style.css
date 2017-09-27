@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+html,body{
+    width:100%;
+    height:100%;
+    /* overflow:hidden; */
+}
+body{
+    width:1080px;
+    height:1920px;
+    background:url(../img/2.png) no-repeat center center;
+}
+.wrap{
+    position:relative;
+}
+.top{
+    width:1080px;
+    height:80px;
+    background:url(../img/1.png) no-repeat center;
+    position:absolute;
+    top:20px;
+    left:150px;
+    position:relative;
+}
+.top>ul{
+    position:absolute;
+    top:30px;
+    left:380px;
+    display:flex;
+    color:#fff;
+}
+.top>ul>li{
+    margin-left:20px;
+}
+.top>ul>li>span{
+    color:#34BFFF;
+    font-size:24px;
+}
+.top>ul>li>em{
+    font-style: normal;
+    font-size:24px;
+    color:#00CE74;
+}
+.main{
+    position:relative;
+    right:0;
+}
+.main>p:nth-child(1){
+    position:absolute;
+    top:30px;
+    left:360px;
+    border-radius: 50%;
+    border:8px solid #567AB6;
+}
+.main>p:nth-child(2){
+    position:absolute;
+    top:100px;
+    left:190px;
+    border-radius: 50%;
+    border:8px solid #567AB6;
+}
+.main>p:nth-child(3){
+    position:absolute;
+    top:260px;
+    left:240px;
+    border-radius: 50%;
+    border:8px solid #567AB6;
+}
+.main>p:nth-child(1)>img{
+    width:170px;
+    height:170px
+}
+.main>p:nth-child(2)>img{
+    width:150px;
+    height:150px
+}
+.main>p:nth-child(3)>img{
+    width:190px;
+    height:190px;
+} 
+.time{
+    position:absolute;
+    top:60px;
+    right:0px;
+    color:#fff;
+}
+.time>h3{
+    font-size:40px;
+}
+.time>small{
+    font-size:18px;
+    padding-right:20px;
+}
+.content>p:nth-child(1){
+    position: absolute;
+    right:0px;
+    top:170px;
+    width:400px;
+    color:#fff;
+    text-indent: 2rem;
+    line-height:30px;
+    font-size: 15px;
+}
+.content>p:nth-child(2){
+    position: absolute;
+    right:0px;
+    top:320px;
+    width:400px;
+    color:#fff;
+    text-indent: 2rem;
+    line-height:30px;
+    font-size:15px;
+}
+#list{
+    position: relative;
+    /* background:url(../img/11.png) no-repeat; */
+}
+#list>img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:-400px;
+    left:240px;
+}
+#list>h4{
+    position:absolute;
+    top:-300px;
+    right:200px;
+}
+/*#list>li:nth-child(1)>b{
+    position: absolute;
+    top:35px;
+    left:365px;
+}
+ #list>li:nth-child(1)>b>img,#list>li:nth-child(2)>b>img,#list>li:nth-child(3)>b>img{
+    width:150px;
+    height:150px;
+}
+#list>li:nth-child(2)>b{
+    position: absolute;
+    top:30px;
+    left:36px;
+}
+#list>li:nth-child(3)>b{
+    position: absolute;
+    top:40px;
+    left:365px;
+} */
